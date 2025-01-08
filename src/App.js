@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
         <p>
           Hellloo
         </p>
+        <SpeedInsights />
+
+
+
         <a
           className="App-link"
           href="https://reactjs.org"
